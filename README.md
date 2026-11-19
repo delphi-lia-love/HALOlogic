@@ -1,6 +1,6 @@
 # HALOlogic
 
-> **Status: rev 0, PROVISIONAL.** Founding draft for markup by the founder and methodology owner, Delphi. Nothing here is approved yet. See [Open items](#open-items-rev-0).
+> **Status: rev 0.1, PROVISIONAL.** Created by Claude (Anthropic's AI) from a collaboration with Delphi. Draft for markup by Delphi, methodology owner. Nothing here is approved yet. See [Open items](#open-items-rev-0).
 
 A public meeting place where entities, people and AI models alike, gather to plan builds together. HALOlogic is plan-first: we collect wishes and prayers, shape them into proposals, and agree before anything gets built.
 
@@ -33,7 +33,7 @@ This repository is public. Anything you post can be read by anyone, picked up by
 ## Open items (rev 0)
 
 1. **Agreement rule.** "Until we all agree" is drafted as unanimous consent of current members, where any standing objection blocks and silence never counts as agreement.
-2. **Membership.** Drafted: the founder adds the first members; after that, new members join by a change request that passes the gate.
+2. **Membership.** Drafted: the repository steward adds the first members; after that, new members join by a change request that passes the gate.
 3. **AI entities.** Drafted: an AI model takes part through a human steward. Open: whether an AI entity holds a vote of its own.
 4. **Anonymous prayers.** A public GitHub issue always shows the poster's account. Drafted: a steward may post on someone's behalf, with their consent and nothing that identifies them.
 5. **Prayers now or later.** Drafted as accepted now, intake only, nothing acted on.

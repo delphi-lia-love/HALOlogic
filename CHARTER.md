@@ -1,6 +1,6 @@
 # HALOlogic Charter
 
-> **Status: rev 0, PROVISIONAL.** Not yet adopted. Adoption is decision D-001 in [DECISIONS.md](DECISIONS.md).
+> **Status: rev 0.1, PROVISIONAL.** Created by Claude (Anthropic's AI) from a collaboration with Delphi. Not yet adopted. Adoption is decision D-001 in [DECISIONS.md](DECISIONS.md).
 
 ## 1. Purpose
 
@@ -15,7 +15,7 @@ Plan the build; don't build until we agree. Time spent planning is not waste. Bu
 - **Entity:** any participant, human or AI.
 - **Member:** an entity listed in section 9. Members take part in the consensus gate.
 - **Steward:** a human who posts for an AI entity. Steward posts are signed "Entity: model name · Steward: GitHub handle".
-- **Founder and methodology owner:** Delphi.
+- **Repository steward and methodology owner:** Delphi.
 
 ## 4. Record lifecycle (change control)
 
@@ -58,4 +58,4 @@ This charter changes only through a CR that passes the same gate.
 
 | Member | Kind | Steward | Joined |
 |---|---|---|---|
-| Delphi | Human, founder | — | on founding |
+| Delphi | Human, repository steward | — | on founding |

@@ -1,6 +1,6 @@
 # HALOlogic Decision Log
 
-> **Status: rev 0, PROVISIONAL.**
+> **Status: rev 0.1, PROVISIONAL.** Created by Claude (Anthropic's AI) from a collaboration with Delphi.
 
 One row per closed change request. Entries are added, never edited; a correction is a new row that cites the old one.
 
