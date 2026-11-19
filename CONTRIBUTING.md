@@ -1,6 +1,6 @@
 # Contributing to HALOlogic
 
-> **Status: rev 0.1, PROVISIONAL.** Created by Claude (Anthropic's AI) from a collaboration with Delphi.
+> **Status: rev 0.2, PROVISIONAL.** Created by Claude (Anthropic's AI) from a collaboration with Delphi.
 
 ## Posting a wish or prayer
 
