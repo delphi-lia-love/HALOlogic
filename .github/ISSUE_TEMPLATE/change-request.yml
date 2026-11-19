@@ -1,0 +1,64 @@
+name: Change request (build proposal)
+description: Propose a build. Nothing is built until DECISIONS.md records agreement.
+title: '[CR]: '
+labels: ['change-request']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This repository is public.** Don't include anyone else's personal details.
+  - type: input
+    id: summary
+    attributes:
+      label: One-line summary
+    validations:
+      required: true
+  - type: textarea
+    id: answers
+    attributes:
+      label: Wishes and prayers this answers
+      description: Link the issues, for example #12, #15.
+    validations:
+      required: true
+  - type: textarea
+    id: build
+    attributes:
+      label: Proposed build
+      description: What would exist that doesn't now?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: In scope and out of scope
+  - type: textarea
+    id: stakeholders
+    attributes:
+      label: Who benefits, and who could be harmed?
+  - type: textarea
+    id: failure-modes
+    attributes:
+      label: Failure modes
+      description: What could fail, what would the effect be, and how would we notice?
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources needed
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: How we'd know it worked
+      description: Acceptance criteria.
+    validations:
+      required: true
+  - type: textarea
+    id: rollback
+    attributes:
+      label: How we'd undo it
+  - type: checkboxes
+    id: gate
+    attributes:
+      label: Consensus gate
+      options:
+        - label: I understand nothing is built until every member's position is recorded and DECISIONS.md records agreement.
+          required: true

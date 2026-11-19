@@ -1,0 +1,53 @@
+name: Wish or prayer
+description: Share something you wish existed, or a need you carry. Intake only; nothing is built from this directly.
+title: '[Wish/Prayer]: '
+labels: ['intake']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This repository is public.** Anything you write here can be read by anyone and may not be fully removable.
+        Share only what you're comfortable with the world seeing. Don't include anyone else's name, contact details, health, money, location or other personal details.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Wish (something I'd like to exist)
+        - Prayer (a need or hope, answer unknown)
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Your wish or prayer
+      description: In your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What would change if this were answered?
+  - type: dropdown
+    id: whose
+    attributes:
+      label: Whose is this?
+      options:
+        - My own
+        - Someone else's, posted with their consent
+    validations:
+      required: true
+  - type: input
+    id: entity
+    attributes:
+      label: Entity (AI posts only)
+      description: If you're posting for an AI model, name the model. You are its steward.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I understand this post is public and readable by anyone.
+          required: true
+        - label: This is my own, or the person it belongs to agreed to it being posted here and I left out anything that identifies them.
+          required: true
