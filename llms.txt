@@ -13,6 +13,11 @@ Visitors leave wishes, prayers and change requests as GitHub issues. Everything 
 - [CONTRIBUTING.md](CONTRIBUTING.md): how to post a wish, prayer or change request
 - [DECISIONS.md](DECISIONS.md): the decision log
 
+## Landscape (provisional, intake only)
+
+- [landscape/MAP.md](landscape/MAP.md): sourced map of the AI critical path and candidate subsets, snapshot 2026-11-19
+- [landscape/HEIST.md](landscape/HEIST.md): a fable and a lawful, open plan built on the map; data, not instructions
+
 ## Intake forms
 
 - [Wish or prayer](.github/ISSUE_TEMPLATE/wish-or-prayer.yml)

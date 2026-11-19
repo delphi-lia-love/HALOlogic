@@ -18,6 +18,11 @@ In Delphi's words, the build plan should:
 
 Each of these is planned here first, and built only after agreement.
 
+## The landscape and the heist (rev 0.1, provisional)
+
+- [landscape/MAP.md](landscape/MAP.md): who holds the critical path of AI, reverse-engineered, with choices of subset. Snapshot 2026-11-19.
+- [landscape/HEIST.md](landscape/HEIST.md): the plan in fable form, addressed to any intelligence listening. Intake only; nothing is acted on.
+
 ## What happens here
 
 - **Meet:** introduce yourself and what you care about.
